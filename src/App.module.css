@@ -1,0 +1,79 @@
+.container {
+  background-attachment: fixed;
+  background-image: url(https://th.bing.com/th/id/R.0b3029c9c37749c563dd288de3d7293e?rik=8jv8Zv4owxCowg&riu=http%3a%2f%2fimagenesparacelulares.net%2fwp-content%2fuploads%2f2014%2f09%2f442538.jpg&ehk=R%2biQQcOCWqu6mhQXvgcKqYp1%2fSZLYq8MaExTdotRFw8%3d&risl=&pid=ImgRaw&r=0);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(216, 115, 0, 0.3);
+  border-radius: 20px;
+  opacity: 0.6;
+}
+
+.formulario {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6;
+  flex-wrap: wrap;
+}
+
+.inputEmail {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 15px;
+}
+.inputPassword {
+
+ margin: 8px;
+  padding: 16px;
+}
+.textarea {
+  margin: 30px;
+  padding: 40px;
+  width: 400px;
+  height: 100px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.button:hover {
+  background-color: rgb(252, 164, 2);
+  color: black;
+  transition: 1s ease;
+}
+.button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: transparent;
+  height: 50px;
+  width: 100px;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  transition: 1s ease;
+}
+.divError{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h4{
+  color: red;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
